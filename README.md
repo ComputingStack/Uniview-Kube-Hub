@@ -14,7 +14,11 @@ Uniview functionality wise, is unique, but from functionality wise, it implement
 Uniview is unique and more comprehensively tackling the pressing issues for enterprise. 
 
 
-If you like vCluster that helps share a cluster within an organization, but worry vCluster is over-bloated objects within cluster and that is very hard to maitain and keep them manageable, Uniview Kube Hub is an ideal alternative. Uniview can share namespace and enable dedicated node to avoid noising etc. For user who requires cluster level operators, Uniview can easily share a while cluster as admin or member, instead of a namespace to meet the practical requirements.
+If you like vCluster that helps share a cluster within an organization, but worry vCluster is over-bloated objects within cluster and that is very hard to maintain for prod workload manageability, Uniview Kube Hub is an ideal alternative. Uniview introduces zero overhead, no binary, no pod to run, only a fraction static tenant policy, and it can share namespace and enable dedicated node to avoid noising etc. For user who requires cluster level operators, Uniview can easily share a while cluster as admin or member, instead of a namespace to meet the practical requirements.
+
+If you like how Rancher Prime is managing hundreds of clusters, one big broker, one sign-in, but worry Rancher Prime has huge overhead and complexity, as it was originated for end-to-end ecosystem, for Rancher RKE2 its own kubernetes distro, provisioning oriented system, if you worry your own-provisioning system either CAPI, or by other engine, can't be easily integrated with Rancher Prime, Uniview is a perfect alternative choice in such sitations. Uniview Kube Hub works with any Bring Your Own Clusters, any your own provisioning engine. It is not designed to replace, instead, it seamlessly works with your existing ecosystem. In the meanwhile, you will find Uniview Access Control can be way effective, scalable, repeatable and tenant as a service, to compare with Rancher Prime which is rather internal tenant, separate target cluster and Prime make it hard to scale to huge user base.
+
+
 
 
 
