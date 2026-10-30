@@ -10,7 +10,9 @@ For further details, refer to:
 The quick architecture view of Uniview Kube Hub:
 
 <p align="center">
-  <img src="/images/uniview-framework.svg" alt="Uniview Framework" width="85%">
+  <br>
+  <img src="/images/uniview-framework.svg" alt="Uniview Framework" width="90%">
+  <br>
 </p>
 
 ## 🚀 Why Uniview Kube Hub
