@@ -21,48 +21,14 @@ If you like how Capsule implements tenant grouping and uses an API proxy to rout
 
 If you like Enterprise Grade management by Rander Prime, or OpenShift OIDC management framework, but see either of those can do namespace management, Uniview is a perfect alternative, that can manage at cluster level, and the same as namespace level too. Namespace level resource access control is same class of management in Uniview, for shared clusters. 
 
-
+## Quick Architecture Conception of Uniview Kube Hub
 The quick architecture view of Uniview Kube Hub:
 
 <p align="center">
   <img src="/images/uniview-framework.svg" alt="Uniview Framework" max-width="450">
 </p>
 
-## 🚀 Why Uniview Kube Hub
 
-**Uniview’s functionality is unique**, yet it delivers the same secure and effective enterprise multi-tenancy as vCluster and Capsule, enabling teams or external clients to safely share a cluster. Uniview also manages anywhere from a few to hundreds of clusters via a massive API Broker. This allows users to sign in to a single platform to access multiple clusters—similar to Rancher Prime or Teleport. 
-
-For effective metering and billing from a single entry point, Uniview implements features akin to OpenCost and KubeCost. Additionally, Uniview integrates Cluster API (CAPI) as a built-in console, allowing users to provision clusters over bare-metal, AWS, GCP, and other providers. Ultimately, Uniview is a distinct, comprehensive solution designed to tackle the most pressing infrastructure challenges for the enterprise.
-
----
-
-## 🔁 Alternatives Breakdown
-
-### Uniview Kube Hub vs. vCluster
-If you like how vCluster helps share a cluster within an organization, but worry that its bloated in-cluster objects make production workloads hard to maintain, Uniview Kube Hub is the ideal alternative. 
-* **Zero Overhead:** Requires no binaries or pods to run inside your cluster.
-* **Lightweight:** Relies only on a fraction of static tenant policies.
-* **Isolate Workloads:** Seamlessly shares namespaces and enables dedicated nodes to eliminate noisy-neighbour issues.
-* **Cluster-Level Access:** For users requiring cluster-level operators, Uniview can easily share an entire cluster as an admin or member instead of restricting access to a namespace, perfectly meeting practical production requirements.
-
-### Uniview Kube Hub vs. Rancher Prime
-If you like how Rancher Prime manages hundreds of clusters through a single broker and unified sign-in, but worry about its massive overhead and complexity, Uniview is the perfect alternative. Rancher Prime was originally designed for an end-to-end ecosystem tailored to its own Kubernetes distribution (RKE2) and provisioning system. 
-* **Bring Your Own Cluster (BYOC):** If you are concerned that your custom provisioning engine—whether CAPI or another tool—cannot be easily integrated into Rancher Prime, Uniview fits right in. 
-* **Ecosystem Friendly:** It is not designed to replace your infrastructure; instead, it seamlessly complements your existing ecosystem.
-* **True Multi-Tenancy:** Uniview’s access control is far more effective, scalable, and repeatable as a Tenant-as-a-Service model compared to Rancher Prime, which relies on internal tenancy across separate target clusters and struggles to scale to a huge user base.
-
-### Uniview Kube Hub vs. Teleport
-If you like how Teleport manages access to multiple clusters with a single sign-in and a decoupled architecture, but worry that Teleport’s short-lived access certificates may break standard ecosystem workflows—such as machine-based authentication—Uniview Kube Hub is an excellent alternative. 
-* **Built Natively for K8s:** If you feel Teleport lacks a true platform experience for user management, cost optimization, and service support, Uniview fills that gap. 
-* **Hybrid Access:** Natively designed for Kubernetes to securely satisfy access requirements for both humans and machines across hundreds of clusters.
-
-### Uniview Kube Hub vs. Capsule
-If you like how Capsule implements tenant grouping and uses an API proxy to route and vet user requests, but worry that its complex `kubectl` setup alters native Kubernetes behavior, Uniview Kube Hub is the best alternative. You may also be concerned that Capsule remains a CNCF Sandbox project after many years, introducing investment uncertainty. 
-* **External Management:** Uniview delivers the same tenant grouping capabilities but handles them externally outside of the cluster. 
-* **Native Experience:** It provides a generic, upstream Kubernetes user experience with minimal modifications, making the platform layer completely transparent to the user. 
-* **Production-Proven Stack:** Uniview relies exclusively on CNCF-graduated artifacts and proven, primitive technologies rather than unproven sandbox techniques.
-
----
 
 ## 🎯 Addressing Enterprise Flaws
 
