@@ -9,9 +9,10 @@ For further details, refer to:
 
 
 ## Why Uniview Hub
-Uniview is one of the best multi-cluster management, and multi-tenancy platform, thanks to its integration with no change on target clusters, effective and robust multi-tenancy, billing and enterprise grade user experiences. 
-Uniview functionality wise, is unique, but from functionality wise, it implements the same multi-tenancy for enterprise to securely and effectively share a cluster to teams or external clients, as vCluster and Capsule. Uniview also manages from many up to hundreds clusters, providing a massive API Broker, so that users can sign in one platform to access many clusters, as Rancher Prime, and 
-Uniview can be a best options to compare with such as Rancher Prime, vCluster, Capsule, Spectro etc in a few special use cases. 
+
+Uniview functionality wise, is unique, but from functionality wise, it implements the same multi-tenancy for enterprise to securely and effectively share a cluster to teams or external clients, as vCluster and Capsule. Uniview also manages from many up to hundreds clusters, providing a massive API Broker, so that users can sign in one platform to access many clusters, as Rancher Prime, Teleport. Uniview implements function as OpenCost, KubeCost etc, to effectively manage metering and billing from the same entry. Uniview integrates CAPI cluster, as the CAPI console, user literally can provision cluster over Bare-metal,  AWS, GCP and others. 
+Uniview is unique and more comprehensively tackling the pressing issues for enterprise. 
+
 
 If you think 
 
