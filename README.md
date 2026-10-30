@@ -8,7 +8,7 @@ For further details, refer to:
 - Documentation: https://www.computingstack.com/docs/docs/kubehub/
 
 
-## Why Uniview Hub
+## Why Uniview Kub Hub
 
 Uniview functionality wise, is unique, but from functionality wise, it implements the same multi-tenancy for enterprise to securely and effectively share a cluster to teams or external clients, as vCluster and Capsule. Uniview also manages from many up to hundreds clusters, providing a massive API Broker, so that users can sign in one platform to access many clusters, as Rancher Prime, Teleport. Uniview implements function as OpenCost, KubeCost etc, to effectively manage metering and billing from the same entry. Uniview integrates CAPI cluster, as the CAPI console, user literally can provision cluster over Bare-metal,  AWS, GCP and others. 
 Uniview is unique and more comprehensively tackling the pressing issues for enterprise. 
