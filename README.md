@@ -45,6 +45,8 @@ If you like how **Capsule** implements tenant grouping and uses an API proxy to 
 
 If you like the enterprise-grade management provided by **Rancher Prime** or the **OpenShift OIDC** management framework, but realize that don't have granular namespace management with global access, Uniview is the perfect alternative. Uniview allows you to manage infrastructure cleanly at **both the cluster level and the namespace level** simultaneously. For shared clusters, **namespace-level resource access control** in Uniview is a first-class feature, delivering identical elite management capabilities across any boundary you define.
 
+If you like vCluster, or Capsule tenancy implementation, but also aware the syncer and API interception may not naturally supports all services, until the vendor gets their development roadmap, Uniview Kube Hub can be an ideal pattern, as it respect the cluster integrity, and doesn't have syncer etc that may not work with certain service or new services. 
+
 
 
 
