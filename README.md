@@ -14,6 +14,8 @@ Uniview functionality wise, is unique, but from functionality wise, it implement
 Uniview is unique and more comprehensively tackling the pressing issues for enterprise. 
 
 
-If you think 
+If you like vCluster that helps share a cluster within an organization, but worry vCluster is over-bloated objects within cluster and that is very hard to maitain and keep them manageable, Uniview Kube Hub is an ideal alternative. Uniview can share namespace and enable dedicated node to avoid noising etc. For user who requires cluster level operators, Uniview can easily share a while cluster as admin or member, instead of a namespace to meet the practical requirements.
+
+
 
 Uniview provides matching capabilities while bypassing their flaws. For instance: Worry about bloated objects within cluster from vCluster or Capsule that is hard to maintain? Uniview has them outside of cluster! Worry about Kubectl CLI setup complicated experience from Capsule/Rancher? Uniview remains natively the same. Worry a new service like KubeVirt is not supported by multi-tenant layer such as vCluster? Uniview has no sync mechanism to block them! Concern multi-cluster is not supported by Capsule or vCluster? Uniview supports it natively! Concern tenant onboarding is abstract or manual on Rancher Auth? Uniview is just one step! Worry they are thin and function-limited? Uniview is true enterprise-grade! KCP integrated with subject cluster not secure? Uniview is reinforced with our OIDC mechanism.
