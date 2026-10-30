@@ -1,6 +1,6 @@
 # Uniview Kube Hub
 
-Uniview Kube Hub is a light-weight multi-tenant Kubernetes platform that enables enterprise to share Kubernetes infrastures within the organization or to external clients easily and consistently.
+Uniview Kube Hub is a light-weight multi-tenant mulit-cluster Kubernetes management platform that enables enterprise to share Kubernetes infrastures within the organization or to external clients easily and consistently.
 
 For enterprise, it gives platform teams one place to manage Kubernetes clusters, containers or namespaces, whether they run in the cloud, in your data center or at the edge. Quota management and cost allocation are fully built in. It's a platform through which an enterprise user just need one credential, at one place possibley access many up to hundreds of clusters, or namespaces securely and consistently.
 
