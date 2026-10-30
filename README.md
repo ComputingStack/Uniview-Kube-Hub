@@ -5,3 +5,9 @@ Uniview Kube Hub is a light-weight multi-tenant Kubernetes platform that enables
 For enterprise, it gives platform teams one place to manage Kubernetes clusters, containers or namespaces, whether they run in the cloud, in your data center or at the edge. Quota management and cost allocation are fully built in. It's a platform through which an enterprise user just need one credential, at one place possibley access many up to hundreds of clusters, or namespaces securely and consistently.
 
 For public cloud and infrastructure providers, it gives administrator a way of monetizing your GPU resources, baremetal cluster right way in a secure, traceable, external users friendly operation platform. It unifies Namespace based tenant isolation, Mutli-cluster backends, Pod as a Service (PaaS), Serverless as a service. As the origin on billing, Uniview naturally has comprehensive metering, rating and payment gateway integration when needed.
+
+The current repo is for public pullable artifacts and utilities for successful deploy, manage, and customize of Uniview Kube Hub.  It complements the official documentation of Uniview official website below. 
+
+For further details, refer to: 
+- Product page: https://www.computingstack.com/uniview-kube-hub
+- Documentation: https://www.computingstack.com/docs/docs/kubehub/
