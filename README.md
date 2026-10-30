@@ -10,7 +10,7 @@ For further details, refer to:
 The quick architecture view of Uniview Kube Hub:
 
 <p align="center">
-  <img src="/images/uniview-framework.svg" alt="Uniview Framework" max-width="600">
+  <img src="/images/uniview-framework.svg" alt="Uniview Framework" max-width="450">
 </p>
 
 ## 🚀 Why Uniview Kube Hub
