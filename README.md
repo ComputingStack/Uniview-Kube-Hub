@@ -18,6 +18,7 @@ If you like vCluster that helps share a cluster within an organization, but worr
 
 If you like how Rancher Prime is managing hundreds of clusters, one big broker, one sign-in, but worry Rancher Prime has huge overhead and complexity, as it was originated for end-to-end ecosystem, for Rancher RKE2 its own kubernetes distro, provisioning oriented system, if you worry your own-provisioning system either CAPI, or by other engine, can't be easily integrated with Rancher Prime, Uniview is a perfect alternative choice in such sitations. Uniview Kube Hub works with any Bring Your Own Clusters, any your own provisioning engine. It is not designed to replace, instead, it seamlessly works with your existing ecosystem. In the meanwhile, you will find Uniview Access Control can be way effective, scalable, repeatable and tenant as a service, to compare with Rancher Prime which is rather internal tenant, separate target cluster and Prime make it hard to scale to huge user base.
 
+If you like how Teleport manages access to many clusters by one user, one sign in, and decoupled architecture, but worry Teleport short lived access certificate may not work with general ecosystem, such as machine based authentication, and worry it has no a sense of platform by user management, cost and service support, then Uniview Kube Hub is good alternative, that it's designed for Kubernetes genetically, and well meet access by human and as well by machine to many up to hundreds of cluster securely
 
 
 
