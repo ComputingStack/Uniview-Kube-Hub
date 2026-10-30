@@ -8,7 +8,7 @@ For further details, refer to:
 - Documentation: https://www.computingstack.com/docs/docs/kubehub/
 
 
-## Why Uniview Kub Hub
+## 🚀 Why Uniview Kube Hub
 
 **Uniview’s functionality is unique**, yet it delivers the same secure and effective enterprise multi-tenancy as vCluster and Capsule, enabling teams or external clients to safely share a cluster. Uniview also manages anywhere from a few to hundreds of clusters via a massive API Broker. This allows users to sign in to a single platform to access multiple clusters—similar to Rancher Prime or Teleport. 
 
