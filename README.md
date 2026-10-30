@@ -8,7 +8,10 @@ For further details, refer to:
 - Documentation: https://www.computingstack.com/docs/docs/kubehub/
 
 The quick architecture view of Uniview Kube Hub:
-![Uniview Framework](/images/uniview-framework.svg)
+
+<p align="center">
+  <img src="/images/uniview-framework.svg" alt="Uniview Framework" width="85%">
+</p>
 
 ## 🚀 Why Uniview Kube Hub
 
