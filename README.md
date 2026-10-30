@@ -8,7 +8,7 @@ For further details, refer to:
 - Documentation: https://www.computingstack.com/docs/docs/kubehub/
 
 
-## Quick Architecture Conception of Uniview Kube Hub
+## 🏗️ Quick Architecture Conception of Uniview Kube Hub
 The quick architecture view of Uniview Kube Hub:
 
 <p align="center">
