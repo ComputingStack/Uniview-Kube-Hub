@@ -12,9 +12,14 @@ For further details, refer to:
 The quick architecture view of Uniview Kube Hub:
 
 <p align="center">
-  <img src="/images/uniview-framework.svg" alt="Uniview Framework" max-width="450">
+  <table align="center" style="border: 1px solid #d0d7de; border-radius: 6px; padding: 10px;">
+    <tr>
+      <td>
+        <img src="/images/uniview-framework.svg" alt="Uniview Framework" width="450">
+      </td>
+    </tr>
+  </table>
 </p>
-
 
 
 ## 🎯 Purposely Engineering to Avoid Known Flaws
