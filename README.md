@@ -22,7 +22,7 @@ The quick architecture view of Uniview Kube Hub:
 </p>
 
 
-## 🎯 Purpose-Built to Avoid Common Multi-Tenancy Multi-Cluster Flaws
+## 🎯 Purpose-Built to Avoid Known Flaws
 
 Uniview is a recent solution that is built over many mature techniques and leverages the latest best practices, while avoiding the common known issues in many multi-tenancy solutions and Kubernete Management platforms.  A few significant improvements include:
 
