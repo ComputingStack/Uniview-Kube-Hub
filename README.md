@@ -24,7 +24,7 @@ The quick architecture view of Uniview Kube Hub:
 
 ## 🎯 Purposely Engineering to Avoid Known Flaws
 
-Uniview is newer than many solutions, then it is built over many mature technicques and leverage the latest best practices, while avoiding the common known issues in many multi-tenancy solutions and Kubernete Management platforms.  
+Uniview is a recent solution that is built over many mature techniques and leverages the latest best practices, while avoiding the common known issues in many multi-tenancy solutions and Kubernete Management platforms.  A few significant improvements include:
 
 > [!TIP]
 > ### 💡 Quick Comparison Table
@@ -35,8 +35,8 @@ Uniview is newer than many solutions, then it is built over many mature technicq
 > | **New services (like KubeVirt) blocked** *(vCluster)* | Uniview uses no synchronization mechanisms that could block them. |
 > | **Missing multi-cluster support** *(Capsule/vCluster)* | Uniview supports multi-cluster natively. |
 > | **Abstract or manual tenant onboarding** *(Rancher Auth)* | Uniview simplifies onboarding to just one single step. |
-> | **Thin, feature-limited tooling** *(Competitors)* | Uniview is built from the ground up to be truly enterprise-grade. |
-> | **Insecure KCP integration with subject cluster** | Uniview is reinforced using a robust OIDC mechanism. |
+> | **Thin, feature-limited tooling** *(when seen at feature engine)*| Uniview is built from the ground up to be truly enterprise-grade. |
+> | **Insecure integration with subject cluster** *(commonly observed in KCP)* | Uniview is reinforced using a robust OIDC mechanism. |
 
 ## 🚀 Why Uniview Kube Hub
 
